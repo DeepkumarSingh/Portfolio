@@ -24,7 +24,7 @@ import mcLogo from './assets/tech_logo/mc.png';
 import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import Render from './assets/tech_logo/Render.png';
-import ODF from './assets/tech_logo/odf.ico';
+import ODF from './assets/tech_logo/ODF.ico';
 
 // Education Section Logo's
 import bitmesra1 from './assets/education_logo/bitmesra1.png';
