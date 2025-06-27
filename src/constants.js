@@ -23,7 +23,7 @@ import vscodeLogo from './assets/tech_logo/vscode.png';
 import mcLogo from './assets/tech_logo/mc.png';
 import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
-import Render from './assets/tech_logo/render.png';
+import Render from './assets/tech_logo/Render.png';
 import ODF from './assets/tech_logo/odf.ico';
 
 // Education Section Logo's
