@@ -34,7 +34,7 @@ import agrasen from './assets/education_logo/agrasen.png';
 // Project Section Logo's
 import roomioLogo from './assets/work_logo/roomio.png';
 import oldPortfolioLogo from './assets/work_logo/oldPortfolio.png';
-import BiTKiTLogo from './assets/work_logo/BiTKiT.png';
+import BiTKiTLogo from './assets/work_logo/BITKIT.png';
 import Weatherlogo from './assets/work_logo/WeatherApp.png';
 
 export const SkillsInfo = [
