@@ -34,6 +34,8 @@ import agrasen from './assets/education_logo/agrasen.png';
 // Project Section Logo's
 import roomioLogo from './assets/work_logo/roomio.png';
 import oldPortfolioLogo from './assets/work_logo/oldPortfolio.png';
+import BiTKiTLogo from './assets/work_logo/BiTKiT.png';
+import Weatherlogo from './assets/work_logo/WeatherApp.png';
 
 export const SkillsInfo = [
   {
@@ -144,6 +146,26 @@ export const SkillsInfo = [
     },
     {
       id: 1,
+      title: "BiTKiT",
+      description: 
+        "BiTKiT is a comprehensive student portal for BIT Mesra, built using the MERN stack. It provides a unified platform to explore official clubs, view sports achievements, access academic resources, and connect with campus activities — all through a modern, responsive, and user-friendly interface.",
+      image: BiTKiTLogo,
+     tags: ["React", "JavaScript", "TailwindCSS", "Daisy UI", "Node.js", "Express.js", "MongoDB", "Cloudinary", "Botpress", "react-slick", "Vite", "nodemailer"],
+      github: "https://github.com/DeepkumarSingh/Group-Project",
+      webapp: "https://bitkit-green.vercel.app/",
+    },
+    {
+      id: 2,
+      title: "Weather App",
+      description:
+        "A weather application that provides real-time weather updates and forecasts using a weather API.",
+      image: Weatherlogo,
+      tags: ["HTML", "CSS", "JavaScript", "React", "Open Weather APIs"],
+      github: "https://github.com/DeepkumarSingh/Weather-application",
+      webapp: "https://weather-application-ax70qctco-deeps-projects-17b585f9.vercel.app/",
+    },
+    {
+      id: 3,
       title: "Old Portfolio",
       description:
         "Developed an earlier version of my portfolio website using HTML, CSS, JavaScript, and Bootstrap to showcase projects, skills, and contact information.",
@@ -151,26 +173,6 @@ export const SkillsInfo = [
       tags: [ "HTML", "CSS", "JavaScript","Bootstrap"],
       github: "https://github.com/DeepkumarSingh/My-Portfolio",
       webapp: "https://deepkumarsingh.github.io/My-Portfolio/",
-    },
-    {
-      id: 2,
-      title: "BiTKiT",
-      description:
-        "coming soon..",
-      image: "",
-      tags: ["coming soon.."],
-      github: "/",
-      webapp: "/",
-    },
-    {
-      id: 3,
-      title: "Projects coming soon..",
-      description:
-        "",
-      image: "",
-      tags: ["coming soon.."],
-      github: "/",
-      webapp: "/",
     },
     
   ];  
