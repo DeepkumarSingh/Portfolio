@@ -17,8 +17,8 @@ const Experience = () => {
       </div>
 
       {/* Experience Timeline - Temporarily Hidden */}
-      {/*
-      <div className="relative">
+      
+      {/* <div className="relative">
         <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 sm:-translate-x-0 w-1 bg-white h-full"></div>
 
         {experiences.map((experience, index) => (
@@ -79,8 +79,8 @@ const Experience = () => {
             </div>
           </div>
         ))}
-      </div>
-      */}
+      </div> */}
+
     </section>
   );
 };

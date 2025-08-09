@@ -25,6 +25,7 @@ import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import Render from './assets/tech_logo/Render.png';
 import ODF from './assets/tech_logo/ODF.ico';
+import Synkr from "./assets/work_logo/Synkr.png";
 
 // Education Section Logo's
 import bitmesra1 from './assets/education_logo/bitmesra1.png';
@@ -88,20 +89,29 @@ export const SkillsInfo = [
   },
 ];
 
-  export const experiences = [
-    // {
-    //   id: 0,
-    //   img: ,
-    //   role: "",
-    //   company: "",
-    //   date: "",
-    //   desc: ".",
-    //   skills: [
-    //     "HTML",
-    //   ],
-    // },
+  // export const experiences = [
+  //   {
+  //     id: 0,
+  //     img: "",
+  //     role: "sde",
+  //     company: "",
+  //     date: "",
+  //     desc: ".",
+  //     skills: [
+  //       "HTML",
+  //     ],
+  //     id: 1,
+  //     img: "",
+  //     role: "sde-1",
+  //     company: "",
+  //     date: "",
+  //     desc: ".",
+  //     skills: [
+  //       "HTML","Css"
+  //     ],
+  //   },
     
-  ];
+  // ];
   
   export const education = [
     {
@@ -136,7 +146,27 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
-      title: "Roomio",
+      title: "BiTKiT (Group Project)",
+      description: 
+        "BiTKiT is a comprehensive student portal for BIT Mesra, built using the MERN stack. It provides a unified platform to explore official clubs, view sports achievements, access academic resources, and connect with campus activities — all through a modern, responsive, and user-friendly interface.",
+      image: BiTKiTLogo,
+      tags: ["React", "JavaScript", "TailwindCSS", "Daisy UI", "Node.js", "Express.js", "MongoDB", "Cloudinary", "Botpress", "react-slick", "Vite", "nodemailer"],
+      github: "https://github.com/DeepkumarSingh/Group-Project",
+      webapp: "https://bitkit-green.vercel.app/",
+    },
+    {
+      id: 1,
+      title: "Synkr (Realtime-Code-Collaborator)",
+      description:
+        "Built Synkr, a real-time code collaboration platform enabling multiple users to write, edit, and debug code simultaneously, with live syntax highlighting and seamless multi-user synchronization.",
+      image: Synkr,
+      tags: [ "React.js", "Node.js", "Express.js","Socket.io","Piston API","vite","HTML5","CSS3"],
+      github: "https://github.com/DeepkumarSingh/synkr",
+      webapp: "https://synkr-j0o6.onrender.com/",
+    },
+    {
+      id: 2,
+      title: "Roomio(Flatmate Finder)",
       description:
         "Roomio is a full-stack web application designed to help users find compatible roommates and shared accommodations. It simplifies the process of connecting individuals looking to share living spaces based on preferences, budget, and location.",
       image: roomioLogo,
@@ -145,17 +175,7 @@ export const SkillsInfo = [
       webapp: "https://roomio-5e5h.onrender.com/",
     },
     {
-      id: 1,
-      title: "BiTKiT",
-      description: 
-        "BiTKiT is a comprehensive student portal for BIT Mesra, built using the MERN stack. It provides a unified platform to explore official clubs, view sports achievements, access academic resources, and connect with campus activities — all through a modern, responsive, and user-friendly interface.",
-      image: BiTKiTLogo,
-     tags: ["React", "JavaScript", "TailwindCSS", "Daisy UI", "Node.js", "Express.js", "MongoDB", "Cloudinary", "Botpress", "react-slick", "Vite", "nodemailer"],
-      github: "https://github.com/DeepkumarSingh/Group-Project",
-      webapp: "https://bitkit-green.vercel.app/",
-    },
-    {
-      id: 2,
+      id: 3,
       title: "Weather App",
       description:
         "A weather application that provides real-time weather updates and forecasts using a weather API.",
@@ -165,7 +185,7 @@ export const SkillsInfo = [
       webapp: "https://weather-application-ax70qctco-deeps-projects-17b585f9.vercel.app/",
     },
     {
-      id: 3,
+      id: 4,
       title: "Old Portfolio",
       description:
         "Developed an earlier version of my portfolio website using HTML, CSS, JavaScript, and Bootstrap to showcase projects, skills, and contact information.",
@@ -174,5 +194,6 @@ export const SkillsInfo = [
       github: "https://github.com/DeepkumarSingh/My-Portfolio",
       webapp: "https://deepkumarsingh.github.io/My-Portfolio/",
     },
+    
     
   ];  
